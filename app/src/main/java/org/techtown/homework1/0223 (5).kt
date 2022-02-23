@@ -1,11 +1,17 @@
 package org.techtown.homework1
 
 fun main () {
-  val str1 = "SON /n Kane"
-  val str2 = """
-        SON
-        KANE
-    """
-  println("str1 : $str1")
-  println("str2 : $str2")
+ fun sum(no: Int): Int {
+   var sum = 0
+   for (i in 1..no) {
+     sum += i
+
+   }
+   return sum
+
+ }
+
+ val name: String = "kkang"
+ println("name : $name, sum : ${sum(10)}, plus : ${10 + 20}")
+
 }
