@@ -1,4 +1,4 @@
-package layout
+package org.techtown.homework1
 
 fun someFun() {
     var data1: Int = 10
